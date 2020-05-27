@@ -1,6 +1,4 @@
-// import { API } from "../../backend";
-
-const API = 'http://localhost:3000/api';
+import { API } from "../../backend";
 
 export const createOrder = (userId, token, orderData) => {
   return fetch(`${API}/order/create/${userId}`, {

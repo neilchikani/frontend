@@ -1,5 +1,4 @@
-// import { API } from "../../backend";
-const API = 'http://localhost:3000/api';
+import { API } from "../../backend";
 
 
 export const getProducts = () => {

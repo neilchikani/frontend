@@ -5,8 +5,6 @@ import { Link } from "react-router-dom";
 import StripeCheckoutButton from "react-stripe-checkout";
 import { createOrder, makeStripePayment } from "./helper/orderHelper";
 
-const API = 'http://localhost:3000/api';
-
 const StripeCheckout = ({
   products,
   setReload = f => f,

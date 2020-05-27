@@ -1,4 +1,4 @@
-const API = 'http://localhost:3000/api';
+import { API } from "../../backend";
 
 export const createCategory = data => {
   return fetch(`${API}/category/create/${data.result._id}`, {

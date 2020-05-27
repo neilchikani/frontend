@@ -5,8 +5,6 @@ import Base from "./Base";
 import Card from "./Card";
 import { getProducts } from "./helper/coreapicalls";
 
-const API = 'http://localhost:3000/api';
-
 
 export default function Home() {
   const [products, setProducts] = useState([]);

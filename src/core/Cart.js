@@ -6,8 +6,6 @@ import Card from "./Card";
 import { loadCart } from "./helper/cartHelper";
 import StripeCheckout from "./StripeCheckout";
 
-const API = 'http://localhost:3000/api';
-
 const Cart = () => {
   const [products, setProducts] = useState([]);
   const [reload, setReload] = useState(false);

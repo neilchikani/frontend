@@ -1,6 +1,5 @@
 import React from "react";
-// import { API } from "../../backend";
-const API = 'http://localhost:3000/api';
+import { API } from "../../backend";
 
 
 const ImageHelper = ({ product }) => {

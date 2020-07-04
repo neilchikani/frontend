@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from './core/Home';
 import SignUp from './user/Signup';
@@ -8,13 +8,12 @@ import AdminDashBoard from './user/AdminDashBoard';
 import PrivateRoute from './auth/helper/PrivateRoutes';
 import AdminRoute from './auth/helper/AdminRoutes';
 import AddCategory from './admin/AddCategory';
-import AddProduct from "./admin/AddProduct";
-import ManageCategories from "./admin/ManageCategories";
-import ManageProducts from "./admin/ManageProducts";
-import UpdateProduct from "./admin/UpdateProduct";
-import Cart from "./core/Cart";
-
-
+import AddProduct from './admin/AddProduct';
+import ManageCategories from './admin/ManageCategories';
+import ManageProducts from './admin/ManageProducts';
+import UpdateProduct from './admin/UpdateProduct';
+import Cart from './core/Cart';
+import App from './App';
 
 const Routes = () => {
   return (
@@ -48,9 +47,10 @@ const Routes = () => {
           component={UpdateProduct}
         />
         <Route path="/signin" component={SignIn} />
+        <Route path="/test" component={App} />
       </Switch>
     </BrowserRouter>
-  )
+  );
 };
 
 export default Routes;

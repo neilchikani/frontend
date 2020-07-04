@@ -1,0 +1,10 @@
+{
+	"auth": {
+		"frontende4c2e539": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	}
+}

@@ -1,0 +1,37 @@
+{
+    "paths": [
+        {
+            "name": "/people",
+            "lambdaFunction": "frontend54dfc499",
+            "privacy": {
+                "private": true,
+                "auth": [
+                    "/GET"
+                ]
+            }
+        }
+    ],
+    "resourceName": "amplifyrestapi",
+    "apiName": "amplifyrestapi",
+    "functionArns": [
+        {
+            "lambdaFunction": "frontend54dfc499"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 0,
+        "authRoleName": "amplify-frontend-dev-170605-authRole",
+        "unAuthRoleName": "amplify-frontend-dev-170605-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "frontend54dfc499",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

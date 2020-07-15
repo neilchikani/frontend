@@ -1,0 +1,34 @@
+{
+    "permissions": {
+        "auth": {
+            "frontende4c2e539": [
+                "create",
+                "read",
+                "update",
+                "delete"
+            ]
+        },
+        "api": {
+            "notesapi": [
+                "create",
+                "read",
+                "update",
+                "delete"
+            ]
+        },
+        "storage": {
+            "imagestorage": [
+                "create",
+                "read",
+                "update",
+                "delete"
+            ],
+            "Note:@model(appsync)": [
+                "create",
+                "read",
+                "update",
+                "delete"
+            ]
+        }
+    }
+}
